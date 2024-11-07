@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 80vh;
+}
+
+.left-section, .right-section {
+    position: relative;
+}
+
+/* Gambar anime di kiri */
+.meii-img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+/* Gambar pita */
+.bow-img {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    width: 60px;
+}
+
+/* Bagian teks di tengah */
+.text-section {
+    text-align: center;
+}
+
+.display {
+    font-size: 2.5rem;
+    color: #ff6a98;
+}
+
+.lead {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Ikon media sosial */
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Mengatur ikon secara vertikal */
+    align-items: center;
+}
+
+/* Setelan ikon */
+.icon {
+    color: #F9ADB7;
+    font-size: 2rem;
+    margin: 10px 0; /* Memberi jarak antar ikon */
+    text-decoration: none;
+}
+
+.icon:hover {
+    color: #ff6a98;
+}
+
+/* About Section */
+#about {
+    padding: 40px 0;
+}
+
+/* Project Section */
+#project {
+    padding: 40px 0;
+}
+
+/* Kotak untuk proyek */
+.project-box {
+    background-color: #f7bcc7;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.project-box {
+    border: 1px solid #ccc; /* Tambahkan border untuk memperjelas */
+    padding: 8px; /* Ruang di dalam kotak */
+    text-align: center; /* Rata tengah teks */
+  }
+  
+  .project-image {
+    width: 100%; /* Gambar memenuhi lebar kotak */
+    height: auto; /* Menjaga rasio aspek */
+    max-height: 200px; /* Atur tinggi maksimum jika perlu */
+  }
+  
+  .small-image {
+    width: 50%; /* Atur lebar gambar menjadi 50% dari kontainer */
+    height: auto; /* Menjaga rasio aspek gambar */
+  }
+  
